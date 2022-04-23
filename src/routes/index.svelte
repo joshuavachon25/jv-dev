@@ -26,6 +26,17 @@
     $: $xPos = isActive ? 10 : 0
 </script>
 
+<svelte:head>
+  <title>Bienvenue sur mon portfolio — Joshua L.J. Vachon</title>
+  <meta name="description" content="Joshua Vachon s'intéresse au développement web, à la cartographie et aux humanités numériques. Découvrez ses intérêts sur son portfolio!" />
+  <meta name="keywords" content="Joshua, Vachon, Joshua L.J. Vachon, web, dev, cartographie, histoire, humanités numériques, digital humanities">
+  <meta property="og:url"                content="https://www.joshuavachon.dev/" />
+  <meta property="og:type"               content="website" />
+  <meta property="og:title"              content="Bienvenue sur mon Portfolio - Joshua L.J. Vachon" />
+  <meta property="og:description"        content="Joshua Vachon s'intéresse au développement web, à la cartographie et aux humanités numériques. Découvrez ses intérêts sur son portfolio!" />
+  <meta property="og:image"              content="/fb-default.png" />
+</svelte:head>
+
 <div class="h-screen w-full pl-24" style="background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'); background-size: cover;">
 
   <SC.Canvas antialias shadows alpha={true}>
