@@ -17,7 +17,7 @@
 
 <div class="w-4/5 mx-auto">
   <div class="flex-col mt-10 text-center">
-    <p class="mt-28  mb-10 md:px-40 text-xl italic">Ce petit labo d'expérimentation est un fourre-tout de petit test en tout genre.</p>
+    <p class="mt-28  mb-10 md:px-40 text-xl">Ce petit labo d'expérimentation est un fourre-tout de petit test en tout genre.</p>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-full mx-auto mt-10 pb-28">

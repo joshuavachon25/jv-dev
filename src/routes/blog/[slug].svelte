@@ -20,10 +20,10 @@
 <div class="flex flex-row">
 
     <div class="h-screen w-96 fixed shadow-md " style="background-image: url('{article.img}'); background-size: cover;">
-        <div class="h-12 flex pl-10 text-white justify-start items-center gap-3">
+        <a href="/blog" class="group h-12 w-auto flex pl-10 text-white inline justify-start items-center gap-3">
             <i class="fa-solid fa-arrow-left-from-line "></i>
-            <a href="/blog" class="">Retour aux articles</a>
-        </div>
+            <span class="transition-all duration-300 group-hover:tracking-widest">Retour aux articles</span>
+        </a>
         <div class="flex flex-col text-center absolute bottom-40 bg-gray-100 text-gray-700 w-full py-10">
             <h1 class="text-2xl md:text-4xl font-black font-mono">{article.titre}</h1>
             <h6 class="text-lg">{format(new Date(article.dateCreation), 'dd/MM/yyyy')}</h6>

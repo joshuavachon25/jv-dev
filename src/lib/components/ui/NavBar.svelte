@@ -4,7 +4,7 @@
   export let d
   const reseaux = [
       {icone: "fa-brands fa-github", url: "#"},
-      {icone: "fa-brands fa-researchgate", url: "#"},
+      {icone: "fa-solid fa-bolt", url: "#"},
       {icone: "fa-brands fa-linkedin", url: "#"}
   ]
 </script>
@@ -20,7 +20,7 @@
       </a>
     {/each}
   </div>
-  <div class="flex flex-col gap-2 w-24 justify-center items-center py-5">
+  <div class="flex flex-row gap-2 w-24 justify-center items-center py-5">
     {#each reseaux as reseau}
       <a href="{reseau.url}" target="_blank"><i class="{reseau.icone} fa-xl text-white"></i></a>
     {/each}

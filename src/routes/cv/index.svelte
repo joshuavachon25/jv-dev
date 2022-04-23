@@ -135,7 +135,7 @@
   <div class="w-full min-h-screen flex flex-col justify-center items-center page" >
     <img src="/facejoshua.svg" class="w-2/6 md:w-1/12 face">
     <h1 class="text-2xl mt-2 lg:text-4xl lg:mt-0">JOSHUA L.J. VACHON</h1>
-    <blockquote class="prose prose-lg px-4 lg:prose-2xl text-center mx-auto">J'existe car je suis, mais qui est ce 'je' qui écrit? Pour le découvrir, ces lignes ne suffiront pas, mais au moins vous sortirez du brouillard.</blockquote>
+    <blockquote class="prose prose-lg px-4 lg:prose-2xl text-center mx-auto">J'existe car je suis, mais qui est ce 'je' qui écrit? Pour le découvrir, ces lignes ne suffiront pas, mais c'est un bon départ.</blockquote>
     <a href="#p2" class="flex flex-col"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i> <p class="text-xs">Cliquez-ici!</p></a>
   </div>
 
