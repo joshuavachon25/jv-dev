@@ -133,7 +133,7 @@
 
 <div id="p1" class="flex flex-col">
   <div class="w-full min-h-screen flex flex-col justify-center items-center page" >
-    <img src="/facejoshua.svg" class="w-2/6 md:w-1/12 face">
+    <img src="/facejoshua.svg" class="w-2/6 md:w-1/6 lg:w-1/12 face">
     <h1 class="text-2xl mt-2 lg:text-4xl lg:mt-0">JOSHUA L.J. VACHON</h1>
     <blockquote class="prose prose-lg px-4 lg:prose-2xl text-center mx-auto">J'existe car je suis, mais qui est ce 'je' qui écrit? Pour le découvrir, ces lignes ne suffiront pas, mais c'est un bon départ.</blockquote>
     <a href="#p2" class="flex flex-col"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i> <p class="text-xs">Cliquez-ici!</p></a>
@@ -146,13 +146,13 @@
     <a href="#p3"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i></a>
   </div>
 
-  <div id="p3" class="flex flex-col justify-center items-center mt-10 page w-3/5 min-h-screen">
+  <div id="p3" class="flex flex-col justify-center items-center mt-10 page w-4/5 lg:w-3/5 min-h-screen">
 
     <div class="w-2/3">
       <h3 class="mb-4 text-xl md:text-2xl leading-tight font-medium text-center">Langages privilégiés</h3>
       <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
         {#each langages as langage}
-          <div class="group w-12 h-12 relative text-center mx-auto">
+          <div class="group w-8 h-8 md:w-12 md:h-12 relative text-center mx-auto">
             {@html langage.icone}
             <div class="text-center rounded-md z-50 select-none font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white bg-opacity-95 absolute top-1/2 left-1/2 w-auto px-5 block -translate-y-1/2 -translate-x-1/2">
               {langage.nom}
@@ -163,7 +163,7 @@
       <h3 class="mb-4 text-xl md:text-2xl leading-tight font-medium text-center">Logiciels privilégiés</h3>
       <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
         {#each logiciels as logiciel}
-          <div class="group w-12 h-12 relative text-center mx-auto">
+          <div class="group h-8 w-8 md:w-12 md:h-12 relative text-center mx-auto">
             {@html logiciel.icone}
             <div class="text-center rounded-md z-50 select-none font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white bg-opacity-95 absolute top-1/2 left-1/2 w-auto px-5 block -translate-y-1/2 -translate-x-1/2">
               {logiciel.nom}
@@ -171,7 +171,7 @@
           </div>
         {/each}
       </div>
-      <h4 class="prose-xl px-2 md:px-0 md:prose-2xl text-center mt-20">
+      <h4 class="prose-lg px-2 md:px-0 md:prose-2xl text-center mt-20">
         Téléchargez <a href="/cv-joshua-vachon.pdf" target="_blank" class="text-purple-500 font-bold">mon CV</a> ou continuez à dérouler pour voir mes formations et expériences pertinentes!
       </h4>
       <div class="flex flex-col justify-center items-center">
@@ -186,7 +186,7 @@
   <div class="w-3/4" id="p4"></div>
     <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase">Formations</h2>
     {#each formations as formation}
-      <div class="bg-white box p-4 shadow-md md:w-3/5 mx-auto my-3 panel md:scale-110">
+      <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
         <div>
           <p  class="text-sm">{formation.institution}</p>
         </div>
@@ -202,7 +202,7 @@
     {/each}
     <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase">Expériences</h2>
     {#each experiences as experience}
-      <div class="bg-white box p-4 shadow-md md:w-3/5 mx-auto my-3 panel md:scale-110">
+      <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
         <div>
           <p  class="text-sm">{experience.institution}</p>
         </div>
@@ -219,8 +219,8 @@
 
   </div>
 
-  <div class="h-screen flex flex-col justify-center items-center -translate-y-28">
-    <img class="w-1/2" src="josh_rikishi.svg">
+  <div class="h-screen flex flex-col justify-center items-center ">
+    <img class="lg:w-1/2" src="josh_rikishi.svg">
     <p class="text-xs">PS.: Grand fan de sumo</p>
     <a href="#p1"><i class="fa-solid fa-chevrons-up fa-xl mt-10 text-gray-300"></i></a>
   </div>

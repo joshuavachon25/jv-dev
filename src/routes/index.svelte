@@ -72,9 +72,12 @@
     <SC.SpotLight position={[0, 10, -10]} color={0xffffff}  lookAt={[0,0]}/>
     <SC.SpotLight position={[20, 1, 20]} color={0xffffff} />
   </SC.Canvas>
-  <div class="absolute bottom-20 right-1/2 flex flex-col transform translate-x-1/2 select-none justify-center items-center">
-    <h1 class="text-9xl text-white leading-none"><span class="font-bold">JOSHUA</span><br>VACHON</h1>
-    <p class="text-2xl text-white">Développement web • Cartographie • Humanités numériques</p>
+  <div class="absolute bottom-2 md:bottom-20 right-2 lg:right-1/2 flex flex-col transform lg:translate-x-1/2 select-none justify-center items-end md:items-center">
+    <h1 class="text-6xl lg:text-9xl text-white leading-none"><span class="font-bold">JOSHUA</span><br>VACHON</h1>
+    <p class="hidden lg:flex lg:text-2xl text-white">Développement web • Cartographie • Humanités numériques</p>
+    <p class="flex lg:hidden text-xl text-white">Développement web</p>
+    <p class="flex lg:hidden text-xl text-white">Cartographie</p>
+    <p class="flex lg:hidden text-xl text-white">Humanités numériques</p>
   </div>
 
 

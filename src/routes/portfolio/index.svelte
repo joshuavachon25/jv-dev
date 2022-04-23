@@ -14,7 +14,7 @@
 </svelte:head>
 
 
-<div class="grid grid-cols-2 lg:grid-cols-4 w-full mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full mx-auto">
 
   {#each projets as projet}
                 <span class="group overflow-hidden aspect-video transition-all duration-500 card rounded-none text-gray-800 projetCarte shadow-md " style="background-image: url('{projet.cover}'); background-size: cover;">

@@ -17,6 +17,6 @@
 </svelte:head>
 
 <NavBar d={menuArray}/>
-<div class="min-h-screen w-full pl-24">
+<div class="min-h-screen w-full pl-16 md:pl-24">
   <slot />
 </div>

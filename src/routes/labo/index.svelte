@@ -16,11 +16,11 @@
 
 
 <div class="w-4/5 mx-auto">
-  <div class="flex-col mt-10 text-center">
-    <p class="mt-28  mb-10 md:px-40 text-xl">Ce petit labo d'expérimentation est un fourre-tout de petit test en tout genre.</p>
+  <div class="flex-col pt-10 text-center">
+    <p class="mt-14  mb-10 lg:px-40 text-xl">Ce petit labo d'expérimentation est un fourre-tout de petit test en tout genre.</p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-full mx-auto mt-10 pb-28">
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 w-full mx-auto mt-10 pb-28">
     {#each experiments as experiment}
       <a class="group aspect-square transition-all duration-500 card rounded-md text-gray-800 projetCarte shadow-md" style="background-image: url('{experiment.cover}'); background-size: cover; background-position: center;" href={experiment.url} target="_blank">
         <div class="opacity-0 transition-opacity duration-300 group-hover:opacity-100 h-full w-full flex flex-col justify-between items-start bg-white bg-opacity-95">
