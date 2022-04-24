@@ -29,7 +29,7 @@
         </div>
     </div>
     <div>
-        <div class="prose prose-lg lg:prose-xl px-4 max-w-none mt-10 md:w-4/5 xl:w-3/5 w-full lg:pl-96 md:mx-auto text-justify prose-h2:text-2xl md:mb-20">
+        <div class="prose prose-lg lg:prose-xl px-4 max-w-none mt-10 md:w-4/5 xl:w-3/5 w-full lg:pl-96 md:mx-auto text-justify prose-h2:text-2xl prose-headings:text-left md:mb-20">
             <p class="font-bold text-zinc-500 mb-10 pt-3">{article.resume}</p>
             <MDXViewer md={article.content}/>
         </div>

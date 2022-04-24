@@ -17,7 +17,7 @@
 <div class="w-full px-2 md:px-5 lg:px-0 mx-auto">
   <div class="flex-col pt-10 text-center">
     <!--<h2 class="uppercase text-5xl font-black inline mb-10 px-10">L'encre coule à flot</h2>-->
-    <p class="lg:mt-28 mb-10 lg:px-40 text-lg md:text-xl ">La section article me permet d'explorer et partager mes recherches, mes passions, mes découvertes. Embarquez à bord de l'E-Calypso! L'océan numérique nous attend!</p>
+    <p class="lg:mt-28 mb-10 lg:px-40 text-lg text-gray-500 md:text-xl ">La section article me permet d'explorer et partager mes recherches, mes passions, mes découvertes. Embarquez à bord de l'E-Calypso! L'océan numérique nous attend!</p>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10 w-full lg:w-4/5 mx-auto">

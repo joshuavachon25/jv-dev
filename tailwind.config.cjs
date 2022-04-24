@@ -4,7 +4,7 @@ const config = {
   theme: {
     extend: {
       colors: {
-        'mauve': "#7049BC"
+        'mauve': "#7882bf"
       }
     },
   },

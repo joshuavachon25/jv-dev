@@ -12,7 +12,7 @@
     <img class="rounded-md shadow-md w-full" src="{projet.cover}">
     {#if projet?.url}
     <a href={projet.url} target="_blank" class="-mt-1 text-center block py-5 uppercase bg-mauve transition-all duration-500 hover:bg-gray-700 text-white text-2xl rounded-b-md">
-      Visiter le site
+      {projet.type === "site" ? "Visiter le site" : projet.type === "article" ? "Lire l'article" : "Voir la carte"}
     </a>
     {/if}
   </div>

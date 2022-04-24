@@ -136,21 +136,21 @@
     <img src="/facejoshua.svg" class="w-2/6 md:w-1/6 lg:w-1/12 face">
     <h1 class="text-2xl mt-2 lg:text-4xl lg:mt-0">JOSHUA L.J. VACHON</h1>
     <blockquote class="prose prose-lg px-4 lg:prose-2xl text-center mx-auto">J'existe car je suis, mais qui est ce 'je' qui écrit? Pour le découvrir, ces lignes ne suffiront pas, mais c'est un bon départ.</blockquote>
-    <a href="#p2" class="flex flex-col"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i> <p class="text-xs">Cliquez-ici!</p></a>
+    <a href="#p2" class="flex flex-col"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-mauve"></i> <p class="text-xs">Cliquez-ici!</p></a>
   </div>
 
   <div id="p2" class="page min-h-screen flex flex-col justify-center items-center">
 
-    <p class="prose prose-lg lg:prose-2xl px-5 md:px-0 md:w-3/5 mx-auto text-justify">Joshua L.J. Vachon termine présentement une maîtrise en histoire de type informatique appliquée à l'Université de Sherbrooke. Depuis sa tendre enfance, ce qui caractérise Joshua, c'est sa curiosité pour tout et n'importe quoi! Trop curieux peut-être, il n'a pas pu choisir simplement une discipline, ce qui explique un cheminement académique ératique, mais aussi sa grande polyvalence et sa multidisciplinarité. Il a donc su acquérir des compétences autant en développement web, recherche en sciences humaines et sociales qu'en développement logiciel ou qu'en cartographie. </p>
+    <p class="prose prose-lg lg:prose-2xl px-5 md:px-0 md:w-3/5 mx-auto text-justify">Joshua L.J. Vachon termine présentement une maîtrise en histoire de type informatique appliquée à l'Université de Sherbrooke. Depuis sa tendre enfance, ce qui caractérise Joshua, c'est sa curiosité pour tout et n'importe quoi! Trop curieux peut-être, il n'a pas pu choisir simplement une discipline, ce qui explique un cheminement académique erratique, mais aussi sa grande polyvalence et sa multidisciplinarité. Il a donc su acquérir des compétences autant en développement web, recherche en sciences humaines et sociales qu'en développement logiciel ou qu'en cartographie. </p>
     <a href="#p1"><i class="fa-solid fa-chevrons-up fa-xl mt-10 text-gray-300"></i></a>
-    <a href="#p3"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i></a>
+    <a href="#p3"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-mauve"></i></a>
   </div>
 
   <div id="p3" class="flex flex-col justify-center items-center mt-10 page w-4/5 lg:w-3/5 min-h-screen">
 
     <div class="w-2/3">
       <h3 class="mb-4 text-xl md:text-2xl leading-tight font-medium text-center">Langages privilégiés</h3>
-      <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
+      <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-full md:w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
         {#each langages as langage}
           <div class="group w-8 h-8 md:w-12 md:h-12 relative text-center mx-auto">
             {@html langage.icone}
@@ -161,7 +161,7 @@
         {/each}
       </div>
       <h3 class="mb-4 text-xl md:text-2xl leading-tight font-medium text-center">Logiciels privilégiés</h3>
-      <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
+      <div class="flex flex-row flex-wrap lg:flex-nowrap my-5 w-full md:w-4/5 mx-auto mb-10 gap-5 justify-center items-center">
         {#each logiciels as logiciel}
           <div class="group h-8 w-8 md:w-12 md:h-12 relative text-center mx-auto">
             {@html logiciel.icone}
@@ -171,12 +171,12 @@
           </div>
         {/each}
       </div>
-      <h4 class="prose-lg px-2 md:px-0 md:prose-2xl text-center mt-20">
-        Téléchargez <a href="/cv-joshua-vachon.pdf" target="_blank" class="text-purple-500 font-bold">mon CV</a> ou continuez à dérouler pour voir mes formations et expériences pertinentes!
+      <h4 class="prose-lg px-2 md:px-0 md:prose-2xl text-center md:mt-20">
+        Téléchargez <a href="/cv-joshua-vachon.pdf" target="_blank" class="text-mauve font-bold">mon CV</a> ou continuez à dérouler pour voir mes formations et expériences pertinentes!
       </h4>
       <div class="flex flex-col justify-center items-center">
         <a href="#p2"><i class="fa-solid fa-chevrons-up fa-xl mt-10 text-gray-300"></i></a>
-        <a href="#p4"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-purple-500"></i></a>
+        <a href="#p4"><i class="fa-solid fa-chevrons-down animate-bounce fa-3x mt-10 text-mauve"></i></a>
       </div>
 
     </div>
@@ -221,7 +221,6 @@
 
   <div class="h-screen flex flex-col justify-center items-center ">
     <img class="lg:w-1/2" src="josh_rikishi.svg">
-    <p class="text-xs">PS.: Grand fan de sumo</p>
     <a href="#p1"><i class="fa-solid fa-chevrons-up fa-xl mt-10 text-gray-300"></i></a>
   </div>
 

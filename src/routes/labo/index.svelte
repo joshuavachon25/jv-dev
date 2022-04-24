@@ -1,6 +1,5 @@
 <script>
     export let experiments
-
 </script>
 
 <svelte:head>
@@ -17,7 +16,7 @@
 
 <div class="w-4/5 mx-auto">
   <div class="flex-col pt-10 text-center">
-    <p class="mt-14  mb-10 lg:px-40 text-xl">Ce petit labo d'expérimentation est un fourre-tout de petit test en tout genre.</p>
+    <p class="mt-14 text-gray-500 mb-10 lg:px-40 text-xl">Pour tous ces bouts de codes et ces petits projets qui me permettent d'expérimenter cet océan numérique!</p>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 w-full mx-auto mt-10 pb-28">
