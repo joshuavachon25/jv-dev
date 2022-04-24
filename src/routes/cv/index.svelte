@@ -83,6 +83,52 @@
             detail: "Planification et développement du site web de l'organisme"
         }
     ]
+    const publications = [
+        {
+            titre: "Impacts des bouleversements environnementaux et géopolitiques sur la vitiviniculture en alsace allemande (1871-1914)",
+            revue: "Revue d'histoire de l'Université de Sherbrooke, Volume 12",
+            annee: "2021",
+            auteur: "Joshua L. J. Vachon",
+            lien: "https://rhus.historiamati.ca/volume12/impacts-des-bouleversements-environnementaux-et-geopolitiques-sur-la-vitiviniculture-en-alsace-allemande-1871-1914/"
+        },
+        {
+            titre: "Espace et humanités numériques : le fort de Chambly et l’héritage de Vauban en Amérique du Nord",
+            revue: "Cahiers d'Histoire, Volume 37, Numéro 1",
+            annee: "2019",
+            auteur: "Hubert Cousineau, Antoine Gauthier-Trépanier, Anthony Trouilhas et Joshua L. J. Vachon",
+            lien: "https://www.erudit.org/fr/revues/histoire/2019-v37-n1-histoire05163/1067958ar/"
+        }
+    ]
+    const prix = [
+        {
+            titre: "Bourse de maîtrise en recherche (FRQSC)",
+            montant: "17 500$/an (2 ans)",
+            annee:"2020",
+            temps: "2",
+            organisme: "Fonds de recherche du Québec - Sciences humaines"
+        },
+        {
+            titre: "Bourse d’études supérieures du Canada (CRSH)",
+            montant: "17 500$",
+            annee:"2020",
+            temps: "1",
+            organisme: "Conseil de recherches en sciences humaines"
+        },
+        {
+            titre: "Bourse d'excellence du Département d'Histoire (UdS)",
+            montant:"7 500$",
+            annee:"2019",
+            temps: "1",
+            organisme: "Université de Sherbrooke"
+        },
+        {
+            titre: "Bourse Méritas en Sciences humaines (CBA)",
+            montant:"400$",
+            annee:"2016",
+            temps: "1",
+            organisme: "Cégep Beauce-Appalaches"
+        },
+    ]
     const langages = [stacks['html'],stacks['css'],stacks['js'],stacks['svelte-kit'],stacks['vue'],stacks['nuxt'],stacks['php'],stacks['python'],stacks['flutter'],stacks['plus']]
     const logiciels = [stacks['webstorm'],stacks['vscode'],stacks['figma'],stacks['qgis'],stacks['affinity'],stacks['godot'],stacks['blender'],stacks['plus']]
     let Y = 0, page1
@@ -184,7 +230,7 @@
   </div>
 
   <div class="w-3/4" id="p4"></div>
-    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase">Formations</h2>
+    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Formations</h2>
     {#each formations as formation}
       <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
         <div>
@@ -200,7 +246,7 @@
         </div>
       </div>
     {/each}
-    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase">Expériences</h2>
+    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Expériences</h2>
     {#each experiences as experience}
       <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
         <div>
@@ -216,7 +262,38 @@
         </div>
       </div>
     {/each}
+  <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Publications scientifiques</h2>
+  {#each publications as article}
+    <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
+      <div>
+        <p  class="text-sm">{article.revue}</p>
+      </div>
+      <div class="flex md:flex-row flex-col justify-between md:gap-2">
+        <p class="text-lg md:text-xl font-medium">{article.titre} <a href={article.lien} target="_blank" class="text-mauve"><i class="fa-solid fa-up-right-from-square fa-xs"></i></a> </p>
+        <p  class="text-sm md:text-xl">{article.annee}</p>
+      </div>
 
+      <div>
+        <p  class="text-sm md:text-lg italic px-4">Par {article.auteur}</p>
+      </div>
+    </div>
+  {/each}
+    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Prix/Distinctions</h2>
+  {#each prix as pri}
+    <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
+      <div>
+        <p  class="text-sm">{pri.montant}</p>
+      </div>
+      <div class="flex md:flex-row flex-col justify-between md:gap-2">
+        <p class="text-lg md:text-xl font-medium">{pri.titre}</p>
+        <p  class="text-sm md:text-xl">{pri.annee}</p>
+      </div>
+
+      <div>
+        <p  class="text-sm md:text-lg italic px-4">{pri.organisme}</p>
+      </div>
+    </div>
+  {/each}
   </div>
 
   <div class="h-screen flex flex-col justify-center items-center ">
