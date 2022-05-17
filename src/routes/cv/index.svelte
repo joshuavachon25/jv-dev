@@ -278,7 +278,7 @@
       </div>
     </div>
   {/each}
-    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Prix/Distinctions</h2>
+    <h2 class="w-3/5 mx-auto mt-28 text-4xl font-bold uppercase text-gray-700">Prix et distinctions</h2>
   {#each prix as pri}
     <div class="bg-white box p-4 shadow-md md:w-4/5 lg:w-3/5 mx-auto my-3 panel md:scale-110">
       <div>
